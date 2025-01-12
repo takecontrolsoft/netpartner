@@ -238,11 +238,11 @@ h6 {
 }
 
 .header .header-container {
-  background-color: var(--background-color);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4318321078431373) 40%);
   transition: all 0.5s;
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .header .logo {
@@ -253,7 +253,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 65px;
+  max-height: 100px;
   margin-right: 8px;
   padding-left: 20px;
 }
@@ -337,10 +337,10 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 13px;
+    font-size: 16px;
     text-transform: uppercase;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 580;
     display: flex;
     align-items: center;
     justify-content: space-between;
