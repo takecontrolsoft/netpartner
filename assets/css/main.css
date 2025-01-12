@@ -1715,3 +1715,73 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/* Cookies */
+
+.cookiealert {
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  max-width: 440px;
+  margin: 0 !important;
+  padding: 0.2rem 1.25rem;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 12px;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  border: 1px solid var(--accent-color);
+}
+
+.cookiealert p
+{
+  text-align: left;
+}
+.cookiealert.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
+}
+
+.cookiealert a {
+  text-decoration: underline;
+  font-weight: bold; 
+}
+
+.cookiealert .acceptcookies {
+  margin-left: 10px;
+  vertical-align: baseline;
+}
+
+.cookiealert button {
+  color: #ffffff;
+  background: var(--accent-color);
+  display: inline-block;
+  transition: 0.3s;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+  border-radius: 19px;
+  border-width: 0px;
+  padding: 10px 30px;
+}
+
+.cookiealert button:hover {
+  color: #ffffff;
+  background: #2c2a2a!important;
+}
+.sib-form-block button:hover {
+  background: #2c2a2a!important;
+}
+@media (max-width: 260px) {
+  .cookiealert
+  {font-size: 12px;
+  }
+}
