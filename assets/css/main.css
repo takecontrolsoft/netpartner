@@ -1515,6 +1515,11 @@ section,
   margin-bottom: 5px;
 }
 
+.contact .info-item h2
+{
+  padding: 10px 10px 0;
+}
+
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
