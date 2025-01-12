@@ -1,2 +1,0 @@
-# netpartner
-Marketing agency
