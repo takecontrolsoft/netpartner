@@ -1555,6 +1555,7 @@ section,
   color: var(--default-color);
   background-color: var(--surface-color);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  border-width: 1px!important;
 }
 
 .contact .php-email-form input[type=text]:focus,
