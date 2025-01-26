@@ -893,7 +893,7 @@ section,
   z-index: 3;
 }
 
-.hero h2 {
+.hero h1 {
   margin: 0;
   font-size: 46px;
   font-weight: 700;
@@ -1727,7 +1727,7 @@ section,
   right: 60px;
   max-width: 440px;
   margin: 0 !important;
-  padding: 0.2rem 1.25rem;
+  padding: 20px;
   z-index: 999;
   opacity: 0;
   visibility: hidden;
